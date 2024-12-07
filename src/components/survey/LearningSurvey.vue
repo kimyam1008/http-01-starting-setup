@@ -60,7 +60,7 @@ export default {
       //   rating: this.chosenRating,
       // });
 
-      fetch('이곳에 fireBase 연결', {
+      fetch('Firebase', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
