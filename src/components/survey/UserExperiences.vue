@@ -38,7 +38,7 @@ export default {
     loadExperiences() {
       this.isLoading = true;
       this.error = null;
-      fetch('Firebase').then((response) => 
+      fetch('surveys.json').then((response) => 
         {
           if(response.ok){
             return response.json();
